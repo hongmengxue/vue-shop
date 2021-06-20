@@ -28,7 +28,8 @@ import {
   Tag,
   Tree,
   Select,
-  Option
+  Option,
+  Cascader
 } from 'element-ui'
 
 Vue.use(Button)
@@ -40,6 +41,8 @@ Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Tree)
 Vue.use(Option)
+Vue.use(Cascader)
+Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Input)
 Vue.use(Container)
